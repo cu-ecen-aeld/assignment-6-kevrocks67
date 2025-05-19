@@ -2,7 +2,7 @@
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
-SRC_URI = "git://github.com/cu-ecen-aeld/assignment-3-and-later-kevrocks67.git;protocol=https"
+SRC_URI = "git://github.com/cu-ecen-aeld/assignments-3-and-later-kevrocks67.git;protocol=https"
 
 PV = "1.0+git${SRCPV}"
 SRCREV =  "df90f24a7cd4dd487352c65d05a77dbb61dd63cb"
