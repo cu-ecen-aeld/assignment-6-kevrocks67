@@ -43,8 +43,8 @@ do_install () {
     install -d 0755 ${D}/usr/bin
     install -d 0755 ${D}/etc/init.d/
 
-	install -m 0755 ${S}/server/aesdsocket ${D}/usr/bin
-	install -m 0755 ${S}/server/aesdsocket-start-stop ${D}/etc/init.d/S99aesdsocket
+	install -m 0755 ${S}/aesdsocket ${D}/usr/bin
+	install -m 0755 ${S}/aesdsocket-start-stop ${D}/etc/init.d/S99aesdsocket
 }
 
 INITSCRIPT_NAME:${PN} = "S99aesdsocket"
