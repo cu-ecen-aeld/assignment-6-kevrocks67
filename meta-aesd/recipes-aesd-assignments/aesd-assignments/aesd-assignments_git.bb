@@ -43,7 +43,6 @@ do_install () {
     install -d 0755 ${D}/usr/bin
     install -d 0755 ${D}/etc/init.d/
 
-	install -m 0755 ${S}/assignment-autotest/test/assignment6/* ${D}/bin
 	install -m 0755 ${S}/server/aesdsocket ${D}/usr/bin
 	install -m 0755 ${S}/server/aesdsocket-start-stop ${D}/etc/init.d/S99aesdsocket
 }
